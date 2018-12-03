@@ -6,8 +6,8 @@
         <field name="name">PayFast</field>
         <field name="sequence">2</field>
         <field name="view_template_id" ref="payment.default_acquirer_button"/>
-        <field name="image" type="base64" file="payment_payfast/static/src/img/paypal_icon.jpg"/>
-        <field name="module_id" ref="base.module_payment_payfast"/>
+        <field name="image" type="base64" file="odoo_payment_payfast/static/src/img/paypal_icon.jpg"/>
+        <field name="module_id" ref="base.module_odoo_payment_payfast"/>
         <field name="description" type="html">
             <p>
 
@@ -33,7 +33,7 @@
      
            <record id="payment_acquirer_payfast" model="payment.acquirer">
             <field name="name">PayFast</field>
-            <field name="image" type="base64" file="payment_payfast/static/src/img/paypal_icon.jpg"/>
+            <field name="image" type="base64" file="odoo_payment_payfast/static/src/img/paypal_icon.jpg"/>
             <field name="provider">payfast</field>
             <field name="company_id" ref="base.main_company"/>
             <field name="view_template_id" ref="paypal_form_2"/>

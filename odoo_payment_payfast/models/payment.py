@@ -9,7 +9,7 @@ from werkzeug import urls
 
 from odoo import api, fields, models, _
 from odoo.addons.payment.models.payment_acquirer import ValidationError
-from odoo.addons.payment_payfast.controllers.main import PayFastController
+from odoo.addons.odoo_payment_payfast.controllers.main import PayFastController
 from odoo.tools.float_utils import float_compare
 
 
