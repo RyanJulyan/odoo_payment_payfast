@@ -6,6 +6,9 @@
     'summary': 'Payment Acquirer: Paypal Implementation',
     'version': '1.0',
     'description': """PayFast Payment Acquirer""",
+    'author': "Magnesium Tech",
+    "price": 35.00,
+    "currency": "USD"
     'depends': ['payment'],
     'data': [
         'views/payment_views.xml',
