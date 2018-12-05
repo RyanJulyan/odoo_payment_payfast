@@ -4,7 +4,7 @@
     'name': 'PayFast',
     'category': 'Accounting',
     'summary': 'Payment Acquirer: Paypal Implementation',
-    'version': '1.0',
+    'version': '2.0',
     'description': """PayFast Payment Acquirer""",
     'author': "Magnesium Tech",
     "price": 35.00,
